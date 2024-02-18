@@ -11,6 +11,8 @@ Output: True
 Input: 15141161152
 Output: False
 
+Problem source: Interview Pen (https://www.youtube.com/watch?v=GneS80iYa7I)
+
 Usage: additive_sequence.py <numeric_sequence>
 """
 
@@ -94,5 +96,5 @@ def is_additive(s: str) -> bool:
     return False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(is_additive(sys.argv[1]))
