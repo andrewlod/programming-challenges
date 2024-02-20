@@ -21,7 +21,7 @@ Output: 2
 
 Problem source: Interview Pen (https://www.youtube.com/watch?v=yM9Xbi-MigE)
 
-Usage: jumps.py <comma_separated_sequence>
+Usage: minimum_jumps.py <comma_separated_sequence>
 """
 
 import sys
