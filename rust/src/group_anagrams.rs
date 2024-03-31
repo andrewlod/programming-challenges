@@ -9,7 +9,7 @@
 //! Input: strs = [""]
 //! Output: [[""]]
 //! 
-//! Usage: contains_nearby_duplicate(nums, k)
+//! Usage: group_anagrams(strs)
 
 use std::collections::{BinaryHeap, HashMap};
 
