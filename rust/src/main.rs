@@ -4,6 +4,9 @@ mod group_anagrams;
 mod longest_consecutive;
 mod summary_ranges;
 mod merge_intervals;
+mod valid_parentheses;
+mod simplify_path;
+mod min_stack;
 
 fn main() {
     println!("Hello, world!");
