@@ -23,17 +23,17 @@ class TreeNode:
     self.left = left
     self.right = right
 
-def depthSearch(node: Optional[TreeNode], depth: int) -> int:
+def depth_search(node: Optional[TreeNode], depth: int) -> int:
   if node is None:
     return depth
 
-  leftSearch = depthSearch(node.left, depth + 1)
-  rightSearch = depthSearch(node.right, depth + 1)
+  leftSearch = depth_search(node.left, depth + 1)
+  rightSearch = depth_search(node.right, depth + 1)
 
   return max(leftSearch, rightSearch)
 
-def maxDepth(root: Optional[TreeNode]) -> int:
-  return depthSearch(root, 0)
+def max_depth(root: Optional[TreeNode]) -> int:
+  return depth_search(root, 0)
 
 if __name__ == "__main__":
   pass
