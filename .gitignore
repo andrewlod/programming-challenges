@@ -1,2 +1,4 @@
 *.exe
 rust/target
+
+**/*/__pycache__
