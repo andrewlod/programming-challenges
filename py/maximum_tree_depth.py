@@ -16,12 +16,7 @@ Usage: maximum_tree_depth.py
 """
 
 from typing import Optional
-
-class TreeNode:
-  def __init__(self, val=0, left=None, right=None):
-    self.val = val
-    self.left = left
-    self.right = right
+from utils import TreeNode
 
 def depth_search(node: Optional[TreeNode], depth: int) -> int:
   if node is None:
