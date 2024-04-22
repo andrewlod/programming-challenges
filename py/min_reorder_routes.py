@@ -24,7 +24,7 @@ Problem source: LeetCode
 Usage: min_reorder_routes.py <num_cities> <comma_separated_ connections>
 """
 
-from typing import Optional
+from typing import Optional, Dict, List
 from utils import read_int_matrix
 import sys
 
