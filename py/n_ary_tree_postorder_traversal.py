@@ -16,12 +16,7 @@ Usage: NOT YET IMPLEMENTED
 """
 
 from typing import List, Optional
-
-# Definition for a N-Ary Node.
-class NAryNode:
-  def __init__(self, val=None, children=None):
-    self.val = val
-    self.children = children
+from utils import NAryNode
 
 def postorder(self, root: Optional[NAryNode]) -> List[int]:
   if root is None:

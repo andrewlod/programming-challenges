@@ -6,6 +6,11 @@ class TreeNode:
     self.left = left
     self.right = right
 
+# Definition for a N-Ary Node.
+class NAryNode:
+  def __init__(self, val=None, children=None):
+    self.val = val
+    self.children = children
   
 # Definition for singly-linked list.
 class ListNode:
