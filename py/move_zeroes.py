@@ -36,5 +36,21 @@ def move_zeroes(nums: List[int]) -> None:
       non_zero_ptr += 1
 
 
+def move_zeroes_2(nums: List[int]) -> None:
+  """
+  Do not return anything, modify nums in-place instead.
+  """
+  non_zero_ptr = 0
+
+  for i, num in enumerate(nums):
+    if num != 0:
+      if i == non_zero_ptr:
+        non_zero_ptr += 1
+      else:
+        nums[non_zero_ptr] = num
+        non_zero_ptr += 1
+        nums[i] = 0
+
+
 if __name__ == "__main__":
   print(move_zeroes(read_int_array(sys.argv[1])))
